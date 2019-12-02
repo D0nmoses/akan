@@ -34,5 +34,25 @@ function checkDay(){
     alert("Your birthday was on a Tuesday and your Akan name is Kwabena")
   }else if(gender=="Male" && f <= 4.5){
     alert("Your birthday was on a Wednesday and your Akan name is Kwaku")
+  }else if(gender=="Male" && f <= 5.5){
+    alert("Your birthday was on a Thursday and your Akan name is Yaw")
+  }else if(gender=="Male" && f <= 6.5){
+    alert("Your birthday was on a Friday and your Akan name is Kofi")
+  }else if(gender=="Male" && f > 6.5){
+    alert("Your birthday was on a Saturday and your Akan name is Kwame")
+  }else if(gender=="Female" && f <= 1.5){
+    alert("Your birthday was on a Sunday and your Akan name is Akosua")
+  }else if(gender=="Female" && f <= 2.5){
+    alert("Your birthday was on a Monday and your Akan name is Adwoa")
+  }else if(gender=="Female" && f <= 3.5){
+    alert("Your birthday was on a Tuesday and your Akan name is Abenaa")
+  }else if(gender=="Female" && f <= 4.5){
+    alert("Your birthday was on a Wednesday and your Akan name is Akua")
+  }else if(gender=="Female" && f <= 5.5){
+    alert("Your birthday was on a Thursday and your Akan name is Yaa")
+  }else if(gender=="Female" && f <= 6.5){
+    alert("Your birthday was on a Friday and your Akan name is Afua")
+  }else if(gender=="Female" && f > 6.5){
+    alert("Your birthday was on a Saturday and your Akan name is Ama")
   }
 }
